@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dana & Brian E-Invite</title>
+    <link rel="icon" href="pictures/bg.png" type="image/x-icon">
+    <style>
+      body {
+        position: relative;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+       /* body::before {
+        content: "";
+        position: fixed;
+        top: 2vw;
+        left: 3.8vw;
+        width: 90vw;
+        height: 90vh;
+        background-image: url('pictures/click.png'); /* Make sure this path is correct */
+      /*  background-size: contain;
+        background-repeat: no-repeat;
+        background-position: var(--bg-x, 50%) var(--bg-y, 50%);
+        z-index: -1;
+        opacity: 1;
+        pointer-events: none;
+        transition: background-position 0.1s linear;
+      }*/
+
+    body::before {
+    content: "";
+    position: fixed;
+    top: 2vw;
+    left: 3.8vw;
+    width: 90vw;
+    height: 90vh;
+    background-image: url('pictures/click.png'); /* Make sure this path is correct */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: var(--bg-x, 50%) var(--bg-y, 50%);
+    z-index: -1;
+    opacity: 1;
+    pointer-events: none;
+    transition: background-position 0.1s linear;
+  }
+
+  #bg-click-area {
+  position: fixed;
+  top: 2vw;
+  left: 3.8vw;
+  width: 90vw;
+  height: 90vh;
+  z-index: 10;
+  cursor: pointer;
+  background: transparent;
+}
+
+
+      @font-face {
+        font-family: acumin;
+        src: url(fonts/Acumin-Variable-Concept.ttf) format('truetype');
+        font-weight: lighter;
+        font-style: normal;
+
+      }
+
+       #redirect-btn {
+        display: none;
+        position: absolute;
+        width: 15vw;
+        height: 10vh;
+        left: 54.5%;
+        top: 78%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 1.7vw;
+        font-family: 'acumin', sans-serif;
+        background: #b0f7b0;
+        color: #5c5757;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+      }
+      #redirect-btn:active {
+        background: #eee;
+      }
+      #redirect-btn:hover {
+        background:#96f193e0;
+      }
+
+      /*Iphone 12 */
+  @media only screen  and (max-width: 390px) {
+      body {
+        position: relative;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+ 
+      body::before {
+      content: "";
+      position: fixed;
+      top: 2vw;
+      left: 3.8vw;
+      width: 90vw;
+      height: 90vh;
+      background-image: url('pictures/click.png'); /* Make sure this path is correct */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: var(--bg-x, 50%) var(--bg-y, 50%);
+      z-index: -1;
+      opacity: 1;
+      pointer-events: none;
+      transition: background-position 0.1s linear;
+    }
+
+      #bg-click-area {
+      position: fixed;
+      top: 2vw;
+      left: 3.8vw;
+      width: 90vw;
+      height: 90vh;
+      z-index: 10;
+      cursor: pointer;
+      background: transparent;
+    }
+
+
+      #redirect-btn {
+        display: none;
+        position: fixed;
+        width: 23vw;
+        height: 6vh;
+        left: 55%;
+        top: 52.5%;
+
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'acumin', sans-serif;
+        background: #b0f7b0;
+        color: #5c5757;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+      }
+  }
+
+  @media only screen and (min-width: 360px) and (max-width: 412px){
+      body {
+        position: relative;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+       body::before {
+      content: "";
+      position: fixed;
+      top: 2vw;
+      left: 3.8vw;
+      width: 90vw;
+      height: 90vh;
+      background-image: url('pictures/click.png'); /* Make sure this path is correct */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: var(--bg-x, 50%) var(--bg-y, 50%);
+      z-index: -1;
+      opacity: 1;
+      pointer-events: none;
+      transition: background-position 0.1s linear;
+    }
+
+      #bg-click-area {
+      position: fixed;
+      top: 2vw;
+      left: 3.8vw;
+      width: 90vw;
+      height: 90vh;
+      z-index: 10;
+      cursor: pointer;
+      background: transparent;
+    }
+
+      #redirect-btn {
+        display: none;
+        position: fixed;
+        width: 23vw;
+        height: 5vh;
+        left: 55%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'acumin', sans-serif;
+        background: #b0f7b0;
+        color: #5c5757;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+      }
+
+  }
+   
+  @media only screen and (min-width: 414px) and (max-width: 420px){
+      body {
+        position: relative;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      body::before {
+      content: "";
+      position: fixed;
+      top: 2vw;
+      left: 3.8vw;
+      width: 90vw;
+      height: 90vh;
+      background-image: url('pictures/click.png'); /* Make sure this path is correct */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: var(--bg-x, 50%) var(--bg-y, 50%);
+      z-index: -1;
+      opacity: 1;
+      pointer-events: none;
+      transition: background-position 0.1s linear;
+    }
+
+      #bg-click-area {
+      position: fixed;
+      top: 2vw;
+      left: 3.8vw;
+      width: 90vw;
+      height: 90vh;
+      z-index: 10;
+      cursor: pointer;
+      background: transparent;
+    }
+
+      #redirect-btn {
+        display: none;
+        position: fixed;
+        width: 23vw;
+        height: 5vh;
+        left: 55%;
+        top: 52%;
+
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'acumin', sans-serif;
+        background: #b0f7b0;
+        color: #5c5757;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+      }
+
+  }
+   
+  @media only screen and (min-width: 421px) and (max-width: 1204px){
+      body {
+        position: relative;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+       body::before {
+      content: "";
+      position: fixed;
+      top: 2vw;
+      left: 3.8vw;
+      width: 90vw;
+      height: 90vh;
+      background-image: url('pictures/click.png'); /* Make sure this path is correct */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: var(--bg-x, 50%) var(--bg-y, 50%);
+      z-index: -1;
+      opacity: 1;
+      pointer-events: none;
+      transition: background-position 0.1s linear;
+    }
+
+      #bg-click-area {
+      position: fixed;
+      top: 2vw;
+      left: 3.8vw;
+      width: 90vw;
+      height: 90vh;
+      z-index: 10;
+      cursor: pointer;
+      background: transparent;
+    }
+
+      #redirect-btn {
+        display: none;
+        position: fixed;
+        width: 23vw;
+        height: 5vh;
+        left: 55%;
+        top: 49.5%;
+
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'acumin', sans-serif;
+        background: #b0f7b0;
+        color: #5c5757;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+      }
+
+  }
+     
+        
+      
+    </style>
+</head>
+<body>
+    
+   <!-- <button id="redirect-btn" onclick="window.location.href='index.html'">Celebrate with us!</button> -->
+  <div id="bg-click-area"></div>
+
+    <script>
+      // Pan animation: occurs once on page load, then stops
+      let t = 0;
+      const duration = 2000; // Animation duration in ms
+      const fps = 60;
+      const totalFrames = Math.round(duration / (1000 / fps));
+      let frame = 0;
+
+      function panOnce() {
+        // Animate from left-top (45%, 45%) to right-bottom (55%, 55%)
+        const progress = frame / totalFrames;
+        const x = 45 + 10 * progress; // from 45% to 55%
+        const y = 45 + 10 * progress; // from 45% to 55%
+        document.body.style.setProperty('--bg-x', `${x}%`);
+        document.body.style.setProperty('--bg-y', `${y}%`);
+        frame++;
+        if (frame <= totalFrames) {
+          requestAnimationFrame(panOnce);
+        } else {
+          // Hold at final position
+          document.body.style.setProperty('--bg-x', `55%`);
+          document.body.style.setProperty('--bg-y', `55%`);
+
+          document.getElementById('redirect-btn').style.display = 'block';
+        }
+
+
+      }
+       document.body.style.setProperty('--bg-x', `45%`);
+       document.body.style.setProperty('--bg-y', `45%`);
+      // Start animation after DOM is ready
+      window.addEventListener('DOMContentLoaded', panOnce);
+
+      // Add this to your <script>
+      document.getElementById('bg-click-area').onclick = function() {
+        window.location.href = 'index.html';
+      };
+    </script>
+</body>
+</html>
