@@ -919,7 +919,7 @@ body {
   .venue {
     position: relative;
     width: 88vw;
-    height: 40vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
@@ -947,7 +947,7 @@ body {
   .prenup {
     position: relative;
     width: 88vw;
-    height: 43vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
@@ -1413,7 +1413,7 @@ body {
   .venue {
     position: relative;
     width: 88vw;
-    height: 40vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
@@ -1441,7 +1441,7 @@ body {
   .prenup {
     position: relative;
     width: 88vw;
-    height: 43vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
@@ -1905,7 +1905,7 @@ body {
   .venue {
     position: relative;
     width: 88vw;
-    height: 40vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
@@ -1952,7 +1952,7 @@ body {
   .prenup {
     position: relative;
     width: 88vw;
-    height: 20vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
@@ -2396,7 +2396,7 @@ body {
   .venue {
     position: relative;
     width: 88vw;
-    height: 30vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
@@ -2424,7 +2424,7 @@ body {
   .prenup {
     position: relative;
     width: 88vw;
-    height: 30vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
@@ -2888,7 +2888,7 @@ body {
   .venue {
     position: relative;
     width: 88vw;
-    height: 15vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
@@ -2916,7 +2916,7 @@ body {
   .prenup {
     position: relative;
     width: 88vw;
-    height: 15vh;
+    min-height: 30vh;
     margin: 2em auto;
     display: flex;
     justify-content: center;
